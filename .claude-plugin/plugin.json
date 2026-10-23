@@ -1,0 +1,22 @@
+{
+  "name": "todo-panel",
+  "version": "0.1.0",
+  "description": "Two to-do lists in a side pane that carry across every session; the project list can live in a markdown checklist file",
+  "author": { "name": "Dead On AI" },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "projectTitle": {
+      "type": "string",
+      "title": "Project list title",
+      "description": "Heading for the second list",
+      "default": "Project"
+    },
+    "projectFile": {
+      "type": "string",
+      "title": "Project list file",
+      "description": "Absolute path to a markdown checklist (- [ ] item) the project list reads and writes; leave empty to keep it in the plugin store",
+      "default": ""
+    }
+  }
+}

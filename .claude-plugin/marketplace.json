@@ -1,0 +1,5 @@
+{
+  "name": "todo-panel",
+  "owner": { "name": "Dead On AI" },
+  "plugins": [{ "name": "todo-panel", "source": "./" }]
+}
